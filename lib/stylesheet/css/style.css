@@ -3,8 +3,50 @@
 body {
   font-family: 'Raleway', sans-serif;
   color: #000;
+  padding: 0;
+  margin: 0;
 }
 
 section {
   height: 1024px;
+  position: relative;
+}
+section:nth-child(odd) {
+  background-color: #fff215;
+}
+section:nth-child(even) {
+  background-color: #1a2854;
+}
+section:nth-child(1) {
+  background: url(../../../img/background-capa.jpg) bottom left no-repeat !important;
+  background-size: 100% !important;
+  background-color: #121c3b !important;
+}
+
+figure {
+  position: absolute;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+figure:nth-child(1) {
+  top: 200px;
+}
+figure:nth-child(2) {
+  top: 370px;
+}
+
+h1 {
+  position: absolute;
+  width: 1024px;
+  top: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.conteudo {
+  width: 1024px;
+  margin: 0 auto;
+  height: auto;
+  display: table;
 }
