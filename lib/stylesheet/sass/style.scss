@@ -4,17 +4,18 @@ $corClara: #fff;
 $corPadrao: #cc6699;
 $tamanhoDaFontePadrao: 12px;
 
+
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,600,500,700,800);
 @import url(http://fonts.googleapis.com/css?family=Chelsea+Market);
 
-body{
+body {
 	font-family: 'Raleway', sans-serif;
 	color: #000;
 	padding:0;
 	margin: 0;
 }
 
-section{
+section {
 	height: 1024px;
 	position: relative;
 
@@ -25,27 +26,22 @@ section{
 		background-color: #1a2854;
 	}
 	&:nth-child(1){
-		background: url(../../../img/background-capa.jpg) bottom left no-repeat !important;
+		background: url(../../../img/background-capa.jpg) top left no-repeat !important;
 		background-size: 100% !important;
 		background-color: #121c3b !important;
 	}
 }
 
-figure{
-	position: absolute;
-	width: 80%;
-	margin: 0 auto;
+figure {
+	width: 100%;
 	text-align: center;
-
+	padding: 0;
 	&:nth-child(1){
-		top: 200px;
-	}
-	&:nth-child(2){
-		top: 370px;
+		margin-top: 225px;	
 	}
 }
 
-h1{
+h1 {
 	position: absolute;
 	width: 1024px;
 	top: 50px;
