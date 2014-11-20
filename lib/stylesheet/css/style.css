@@ -1,4 +1,13 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700);
+::selection {
+  background: #fbed00;
+  color: #1a2854;
+}
+
+::-moz-selection {
+  background: #fbed00;
+  color: #1a2854;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   color: #000;
@@ -9,7 +18,7 @@ body {
 section {
   display: inline-table;
   width: 100%;
-  height: 1024px;
+  min-height: 800px;
   position: relative;
 }
 section.capa {
@@ -98,7 +107,7 @@ figure {
 figure .logo {
   width: 100%;
   max-width: 740px;
-  margin-top: 200px;
+  margin-top: 225px;
 }
 figure .complementoLogo {
   width: 70%;
@@ -174,16 +183,36 @@ figure .complementoLogo {
   background-color: #fff;
 }
 
-.conteudoProgramacao {
+.conteudoOrganizacao {
   padding: 0;
   right: 0;
-}
-.conteudoProgramacao li {
   display: table;
+  width: 100%;
 }
-.conteudoProgramacao li .thumb {
+.conteudoOrganizacao li {
+  display: inline-table;
+  width: 32%;
+  margin-bottom: 25px;
+}
+.conteudoOrganizacao li .thumb {
   float: left;
-  width: 75px;
-  height: 75px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
   background: #fff;
+}
+.conteudoOrganizacao li .descricao {
+  float: left;
+  margin-top: 50px;
+  margin-left: 5px;
+  color: red;
+  font-size: 18px;
+  font-weight: 700;
+}
+.conteudoOrganizacao li .descricao span {
+  color: #000;
+  font-weight: 300;
+  font-size: 14px;
+  display: block;
+  font-style: italic;
 }
