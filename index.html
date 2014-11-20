@@ -13,40 +13,30 @@
   	<script src="lib/javascript/angular/angular.min.js"></script>
   	<script src="lib/javascript/angular-route/angular-route.min.js"></script>
   	<script src="lib/javascript/jquery/dist/jquery.min.js"></script>
-
+	<script src="lib/javascript/onepage-scroll/jquery.onepage-scroll.js"></script>
+  	<link href='lib/javascript/onepage-scroll/onepage-scroll.css' rel='stylesheet' type='text/css'>
   	<link href='lib/stylesheet/css/style.css' rel='stylesheet' type='text/css'>
 
   	<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
 </head>
 	<body ng-app>
-		<ul class="paginacao">
-			<li data-alvo="#capa"><a href="">a</a></li>
-			<li data-alvo="#faq"><a href="">a</a></li>
-			<li data-alvo="#programacao"><a href="">a</a></li>
-			<li data-alvo="#times"><a href="">a</a></li>
-			<li data-alvo="#organizacao"><a href="">a</a></li>
-		</ul>
-		<section id="capa" class="capa" ng-include="'views/capa.html'"></section>
-		<section id="faq" class="faq" ng-include="'views/faq.html'"></section>
-		<section id="programacao" class="programacao" ng-include="'views/programacao.html'"></section>
-		<section id="times" class="times" ng-include="'views/times.html'"></section>
-		<section id="organizacao" class="organizacao" ng-include="'views/organizacao.html'"></section>
+		<div class="wrapper">
+			<div class="main">
+				<section class="capa" ng-include="'views/capa.html'"></section>
+				<section class="faq" ng-include="'views/faq.html'"></section>
+				<section class="programacao" ng-include="'views/programacao.html'"></section>
+				<section class="times" ng-include="'views/times.html'"></section>
+				<section class="organizacao" ng-include="'views/organizacao.html'"></section>
+			</div>
+		</div>
 	</body>
 	<script type="text/javascript">
-	  	(function($) {
-			var itensDoMenu = $(".paginacao li");
-
-			itensDoMenu.on("click", function() {
-				var posicaoDaRolagem = $(window).scrollTop();
-				
-				var idDoAlvo = $(this).data("alvo");
-				var posicaoDoAlvo = $(idDoAlvo).offset().top;
-				var posicaoDoAlvoRelativamenteAoTopo = posicaoDoAlvo;
-
-				$("body,html").animate({
-					scrollTop: posicaoDoAlvoRelativamenteAoTopo
-				}, 800);
+		(function($) {
+			$(".main").onepage_scroll({
+				sectionContainer: "section",
+				responsiveFallback: 600,
+				loop: true
 			});
-		})(jQuery);
+		})(jQuery);		
 	</script>
 </html>
