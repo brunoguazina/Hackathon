@@ -10,10 +10,10 @@
 	<link rel="shortcut icon" id="favicon" href="favicon.ico"> 
 	<meta name="author" content="Bruno Guazina">
 	
-  	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular.min.js"></script>
-  	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
+  	<script src="lib/javascript/angularjs/angular.min.js"></script>
+  	<script src="lib/javascript/angularjs/angular-route.min.js"></script>
+  	<script src="lib/javascript/jquery-1.11.1.min.js"></script>
 
-  	<link href='lib/stylesheet/css/onepage-scroll.css' rel='stylesheet' type='text/css'>
   	<link href='lib/stylesheet/css/style.css' rel='stylesheet' type='text/css'>
 
   	<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
@@ -21,17 +21,34 @@
 
 	<body ng-app>
 			<ul class="paginacao">
-				<li><a href="">a</a></li>
-				<li><a href="">a</a></li>
-				<li><a href="">a</a></li>
-				<li><a href="">a</a></li>
+				<li data-alvo="#capa"><a href="">a</a></li>
+				<li data-alvo="#faq"><a href="">a</a></li>
+				<li data-alvo="#programacao"><a href="">a</a></li>
+				<li data-alvo="#times"><a href="">a</a></li>
+				<li data-alvo="#organizacao"><a href="">a</a></li>
 			</ul>
-      <section  class="capa" ng-include="'views/capa.html'"></section>
-      <section  class="faq" ng-include="'views/faq.html'"></section>
-      <section  class="programacao" ng-include="'views/programacao.html'"></section>
-      <section  class="times" ng-include="'views/times.html'"></section>
-      <section  class="organizacao" ng-include="'views/organizacao.html'"></section>
+      <section id="capa" class="capa" ng-include="'views/capa.html'"></section>
+      <section id="faq" class="faq" ng-include="'views/faq.html'"></section>
+      <section id="programacao" class="programacao" ng-include="'views/programacao.html'"></section>
+      <section id="times" class="times" ng-include="'views/times.html'"></section>
+      <section id="organizacao" class="organizacao" ng-include="'views/organizacao.html'"></section>
 
 	</body>
+	<script type="text/javascript">
+	  	(function($) {
+			var itensDoMenu = $(".paginacao li");
 
+			itensDoMenu.on("click", function() {
+				var posicaoDaRolagem = $(window).scrollTop();
+				
+				var idDoAlvo = $(this).data("alvo");
+				var posicaoDoAlvo = $(idDoAlvo).offset().top;
+				var posicaoDoAlvoRelativamenteAoTopo = posicaoDoAlvo;
+
+				$("body,html").animate({
+					scrollTop: posicaoDoAlvoRelativamenteAoTopo
+				}, 800);
+			});
+		})(jQuery);
+	</script>
 </html>
