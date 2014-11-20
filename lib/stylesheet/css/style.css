@@ -15,13 +15,6 @@ body {
   margin: 0;
 }
 
-.wrapper {
-      height: 100% !important;
-      height: 100%;
-      margin: 0 auto; 
-      overflow: hidden;
-    }
-
 section {
   display: inline-table;
   width: 100%;
@@ -103,6 +96,12 @@ h1 {
   height: 11px;
   background: transparent;
   border: 1px solid #fff;
+}
+
+.botaoInscricao {
+  width: 350px;
+  margin: 0 auto;
+  padding: 10px 0;
 }
 
 figure {
