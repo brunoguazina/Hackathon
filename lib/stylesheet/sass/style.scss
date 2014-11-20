@@ -218,6 +218,10 @@ figure {
 			height: 150px;
 			border-radius: 50%;
 			background: #fff;
+			img{
+				width: 100%;
+				border-radius: 50%;
+			}
 		}
 		.descricao{
 			float: left;
