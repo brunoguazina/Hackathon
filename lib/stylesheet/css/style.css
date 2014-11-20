@@ -24,7 +24,7 @@ section.faq {
 section.faq h1 {
   border-bottom: 1px solid #fff;
   color: #1a2854;
-  background: url(../../../img/background-tituloFaq.png) no-repeat -7px 0px;
+  background: url(../../../img/background-tituloFaq.png) no-repeat -2px 0px;
 }
 section.programacao {
   background-color: #fff215;
@@ -40,10 +40,15 @@ section.times {
 section.times h1 {
   border-bottom: 1px solid #fff;
   color: #1a2854;
-  background: url(../../../img/background-tituloFaq.png) no-repeat -7px 0px;
+  background: url(../../../img/background-tituloFaq.png) no-repeat -1px 0px;
 }
 section.organizacao {
   background-color: #fff215;
+}
+section.organizacao h1 {
+  border-bottom: 1px solid #1a2854;
+  color: #fff;
+  background: url(../../../img/background-tituloOrganizacao.png) no-repeat -1px -4px;
 }
 
 h1 {
@@ -69,13 +74,19 @@ h1 {
 
 .paginacao li {
   text-indent: -99999999px;
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
   background-color: #fff;
   text-align: center;
   margin-top: 5px;
   border-radius: 50%;
   cursor: pointer;
+}
+.paginacao li.ativo {
+  width: 11px;
+  height: 11px;
+  background: transparent;
+  border: 1px solid #fff;
 }
 
 figure {
@@ -103,17 +114,19 @@ figure .complementoLogo {
 
 .conteudoFaq {
   padding: 0;
-  right: 0;
+  text-align: left;
 }
 .conteudoFaq li {
   list-style: none;
-  width: 50%;
+  width: 100%;
 }
 .conteudoFaq li:nth-child(odd) {
+  font-size: 18px;
   color: #fff215;
   font-weight: bold;
 }
 .conteudoFaq li:nth-child(even) {
+  font-size: 14px;
   color: #fff;
   font-weight: lighter;
   margin-bottom: 25px;
@@ -139,7 +152,7 @@ figure .complementoLogo {
 }
 .conteudoProgramacao li:nth-child(odd) span {
   font-weight: 300;
-  font-size: 13px;
+  font-size: 14px;
   display: block;
   font-style: italic;
 }
@@ -159,4 +172,18 @@ figure .complementoLogo {
   display: inline-table;
   list-style: none;
   background-color: #fff;
+}
+
+.conteudoProgramacao {
+  padding: 0;
+  right: 0;
+}
+.conteudoProgramacao li {
+  display: table;
+}
+.conteudoProgramacao li .thumb {
+  float: left;
+  width: 75px;
+  height: 75px;
+  background: #fff;
 }
