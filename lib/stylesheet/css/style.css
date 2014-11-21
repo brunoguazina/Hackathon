@@ -126,6 +126,7 @@ h1 {
   border: 2px solid #fff215;
   color: #fff215;
   text-decoration: none;
+  text-transform: uppercase;
   left: 50%;
   margin-left: -130px;
 }
@@ -163,7 +164,7 @@ figure .complementoLogo {
 }
 .conteudoFaq li {
   list-style: none;
-  width: 100%;
+  width: 50%;
 }
 .conteudoFaq li:nth-child(odd) {
   font-size: 18px;
