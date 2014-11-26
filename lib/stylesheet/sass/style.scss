@@ -85,34 +85,6 @@ h1 {
 	padding: 10px 25px 2px 25px;
 }
 
-.paginacao {
-	position: fixed;
-	right: 10px;
-	top: 50%;
-	margin-top: -40px;
-	z-index: 5;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-.paginacao li {
-	text-indent: -99999999px;
-	width: 12px;
-	height: 12px;	
-	background-color: #fff;
-  	text-align: center;
-  	margin-top: 5px;
-  	border-radius: 50%;
-  	cursor: pointer; 
-
-  	&.ativo{
-  		width: 11px;
-		height: 11px;	
-		background: transparent;
-		border: 1px solid #fff;
-  	}
-}
-
 .wrapper {
       height: 100% !important;
       height: 100%;
@@ -208,7 +180,7 @@ figure {
 		list-style: none;
 		width: 50%;
 		&:nth-child(even){
-			color: red;
+			color: #2a2854;
 			font-size: 18px;
 			font-weight: 700;
 		}
@@ -281,9 +253,33 @@ figure {
 		}
 	}
 }
+.conteudoApoio{
+	padding: 0;
+	right: 0;
+	display: table;
+	width: 100%;
 
+	li{
+		width: 47%;
+		margin: 1%;
+		height: 280px;
+		display: inline-table;
+		list-style: none;
+		background-color: #fff;
 
+		img{
+			width: 80%;
+		}
+	}
 
+}
+.onepage-pagination li a:before {
+  color: #FFF;
+}
 
-
-
+.dataNaCapa {
+  color: #FFF;
+  margin-top: 355px;
+  font-size: 49px;
+  text-align: center;
+}
