@@ -9,8 +9,6 @@ $tamanhoDaFontePadrao: 12px;
     @return $cor;
 }
 
-//@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700);
-
 ::selection {
     background: escurecer(#fff, 2%);
     color: #1a2854;
@@ -33,12 +31,14 @@ section {
 	width: 100%;
 	min-height: 800px;
 	position: relative;
+    
 	&.capa{
 		min-width: 800px;
 		background: url(../../../img/background-capa.jpg) top left no-repeat;
 		background-size: 100%;
 		background-color: #121c3b;
 	}
+    
 	&.faq{
 		background-color: #1a2854;
 		h1{
@@ -48,6 +48,7 @@ section {
 			background: url(../../../img/background-tituloFaq.png) no-repeat -2px 0px;
 		}
 	}
+    
 	&.programacao{
 		background-color: #fff215;
 		h1{
@@ -56,6 +57,7 @@ section {
 			background: url(../../../img/background-tituloProgramacao.png) no-repeat -1px -4px;
 		}
 	}
+    
 	&.times{
 		background-color: #1a2854;
 		h1{
@@ -64,6 +66,7 @@ section {
 			background: url(../../../img/background-tituloFaq.png) no-repeat -1px 0px;
 		}
 	}
+    
 	&.organizacao{
 		background-color: #fff215;
 		h1{
@@ -172,6 +175,8 @@ figure {
 		}
 	}
 }
+
+// FORMATACAO DA PROGRAMACAO
 .conteudoProgramacao{
 	padding: 0;
 	right: 0;
@@ -180,7 +185,7 @@ figure {
 		list-style: none;
 		width: 50%;
 		&:nth-child(even){
-			color: #2a2854;
+			color: red;
 			font-size: 18px;
 			font-weight: 700;
 		}
@@ -200,6 +205,7 @@ figure {
 		}
 	}
 }
+
 .conteudoTimes{
 	padding: 0;
 	right: 0;
