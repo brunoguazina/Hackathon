@@ -145,7 +145,7 @@ figure {
       font-weight: bold; }
     /* line 171, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
     .conteudoFaq li:nth-child(even) {
-      font-size: 14px;
+      font-size: 15px;
       color: #fff;
       font-weight: lighter;
       margin-bottom: 25px;
@@ -171,7 +171,7 @@ figure {
       /* line 197, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
       .conteudoProgramacao li:nth-child(odd) span {
         font-weight: 300;
-        font-size: 14px;
+        font-size: 15px;
         display: block;
         font-style: italic; }
     /* line 204, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
