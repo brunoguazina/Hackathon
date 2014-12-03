@@ -1,66 +1,66 @@
-/* line 12, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+/* line 12, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
 ::selection {
   background: #fafafa;
   color: #1a2854; }
 
-/* line 16, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+/* line 16, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
 ::-moz-selection {
   background: #fafafa;
   color: #1a2854; }
 
-/* line 22, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+/* line 22, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
 body {
   font-family: 'Open Sans', sans-serif;
   color: #000;
   padding: 0;
   margin: 0; }
 
-/* line 29, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+/* line 29, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
 section {
   display: inline-table;
   width: 100%;
   min-height: 800px;
   position: relative; }
-  /* line 35, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+  /* line 35, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
   section.capa {
     min-width: 800px;
     background: url(../../../img/background-capa.jpg) top left no-repeat;
     background-size: 100%;
     background-color: #121c3b; }
-  /* line 42, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+  /* line 42, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
   section.faq {
     background-color: #1a2854; }
-    /* line 44, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+    /* line 44, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
     section.faq h1 {
       border-bottom: 1px solid #fff;
       color: #1a2854;
       background: url(../../../img/background-tituloFaq.png) no-repeat -2px 0px; }
-  /* line 52, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+  /* line 52, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
   section.programacao {
     background-color: #fff215; }
-    /* line 54, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+    /* line 54, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
     section.programacao h1 {
       border-bottom: 1px solid #1a2854;
       color: #fff;
       background: url(../../../img/background-tituloProgramacao.png) no-repeat -1px -4px; }
-  /* line 61, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+  /* line 61, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
   section.times {
     background-color: #1a2854; }
-    /* line 63, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+    /* line 63, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
     section.times h1 {
       border-bottom: 1px solid #fff;
       color: #1a2854;
       background: url(../../../img/background-tituloFaq.png) no-repeat -1px 0px; }
-  /* line 70, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+  /* line 70, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
   section.organizacao {
     background-color: #fff215; }
-    /* line 72, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+    /* line 72, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
     section.organizacao h1 {
       border-bottom: 1px solid #1a2854;
       color: #fff;
       background: url(../../../img/background-tituloOrganizacao.png) no-repeat -1px -4px; }
 
-/* line 81, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+/* line 81, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
 h1 {
   font-weight: 300;
   font-size: 28px;
@@ -70,26 +70,26 @@ h1 {
   margin: 50px 0 50px 0;
   padding: 10px 25px 2px 25px; }
 
-/* line 91, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+/* line 91, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
 .wrapper {
   height: 100% !important;
   height: 100%;
   margin: 0 auto;
   overflow: hidden; }
 
-/* line 98, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+/* line 98, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
 .cronometro {
   font-weight: 300;
   color: #fff;
   text-align: center;
   background: #141e40;
   padding: 10px 25px;
-  width: 375px;
+  width: 400px;
   margin: 0 auto;
   border-bottom-right-radius: 7px;
   border-bottom-left-radius: 7px; }
 
-/* line 110, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+/* line 110, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
 .botaoInscricao a {
   position: absolute;
   bottom: 10%;
@@ -102,27 +102,28 @@ h1 {
   text-transform: uppercase;
   left: 50%;
   margin-left: -130px; }
-  /* line 123, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+  /* line 123, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
   .botaoInscricao a:hover {
     background: #fff215;
     color: #1a2854; }
 
-/* line 130, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+/* line 130, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
 figure {
   max-width: 740px;
   margin: 0 auto;
   text-align: center;
   padding: 0; }
-  /* line 136, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+  /* line 136, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
   figure .logo {
     width: 100%;
+    height: auto;
     max-width: 740px;
-    margin-top: 200px; }
-  /* line 142, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+    margin: 30% 0 100px 0; }
+  /* line 143, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
   figure .complementoLogo {
     width: 70%; }
 
-/* line 149, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+/* line 150, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
 .conteudo {
   width: 1024px;
   max-width: 1024px;
@@ -130,20 +131,20 @@ figure {
   height: auto;
   display: table; }
 
-/* line 156, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+/* line 157, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
 .conteudoFaq {
   padding: 0;
   text-align: left; }
-  /* line 160, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+  /* line 161, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
   .conteudoFaq li {
     list-style: none;
     width: 50%; }
-    /* line 164, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+    /* line 165, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
     .conteudoFaq li:nth-child(odd) {
       font-size: 18px;
       color: #fff215;
       font-weight: bold; }
-    /* line 169, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+    /* line 170, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
     .conteudoFaq li:nth-child(even) {
       font-size: 14px;
       color: #fff;
@@ -151,39 +152,39 @@ figure {
       margin-bottom: 25px;
       font-weight: 300; }
 
-/* line 180, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+/* line 181, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
 .conteudoProgramacao {
   padding: 0;
   right: 0; }
-  /* line 184, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+  /* line 185, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
   .conteudoProgramacao li {
     list-style: none;
     width: 50%; }
-    /* line 187, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+    /* line 188, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
     .conteudoProgramacao li:nth-child(even) {
       color: red;
       font-size: 18px;
       font-weight: 700; }
-    /* line 192, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+    /* line 193, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
     .conteudoProgramacao li:nth-child(odd) {
       margin-bottom: 25px;
       font-weight: 700; }
-      /* line 195, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+      /* line 196, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
       .conteudoProgramacao li:nth-child(odd) span {
         font-weight: 300;
         font-size: 14px;
         display: block;
         font-style: italic; }
-    /* line 202, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+    /* line 203, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
     .conteudoProgramacao li:first-child {
       font-size: 26px;
       font-weight: 400; }
 
-/* line 209, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+/* line 210, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
 .conteudoTimes {
   padding: 0;
   right: 0; }
-  /* line 213, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+  /* line 214, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
   .conteudoTimes li {
     width: 47%;
     margin: 1%;
@@ -192,29 +193,29 @@ figure {
     list-style: none;
     background-color: #fff; }
 
-/* line 222, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+/* line 223, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
 .conteudoOrganizacao {
   padding: 0;
   right: 0;
   display: table;
   width: 100%; }
-  /* line 228, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+  /* line 229, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
   .conteudoOrganizacao li {
     display: inline-table;
     width: 32%;
     margin-bottom: 25px; }
-    /* line 233, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+    /* line 234, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
     .conteudoOrganizacao li .thumb {
       float: left;
       width: 150px;
       height: 150px;
       border-radius: 50%;
       background: #fff; }
-      /* line 239, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+      /* line 240, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
       .conteudoOrganizacao li .thumb img {
         width: 100%;
         border-radius: 50%; }
-    /* line 244, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+    /* line 245, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
     .conteudoOrganizacao li .descricao {
       float: left;
       margin-top: 50px;
@@ -222,7 +223,7 @@ figure {
       color: red;
       font-size: 18px;
       font-weight: 700; }
-      /* line 252, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+      /* line 253, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
       .conteudoOrganizacao li .descricao span {
         color: #000;
         font-weight: 300;
@@ -230,13 +231,13 @@ figure {
         display: block;
         font-style: italic; }
 
-/* line 262, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+/* line 263, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
 .conteudoApoio {
   padding: 0;
   right: 0;
   display: table;
   width: 100%; }
-  /* line 268, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+  /* line 269, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
   .conteudoApoio li {
     width: 47%;
     margin: 1%;
@@ -244,19 +245,12 @@ figure {
     display: inline-table;
     list-style: none;
     background-color: #fff; }
-    /* line 276, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+    /* line 277, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
     .conteudoApoio li img {
       width: 80%; }
 
-/* line 282, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
+/* line 283, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
 .onepage-pagination li a:before {
   color: #FFF; }
-
-/* line 286, /Users/brunoguazina/Documents/digithobrasil/hackathon/lib/stylesheet/sass/style.scss */
-.dataNaCapa {
-  color: #FFF;
-  margin-top: 355px;
-  font-size: 49px;
-  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

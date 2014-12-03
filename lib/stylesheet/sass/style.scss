@@ -101,7 +101,7 @@ h1 {
 	text-align: center;
 	background: #141e40;
 	padding: 10px 25px;
-	width: 375px;
+	width: 400px;
 	margin: 0 auto;
 	border-bottom-right-radius: 7px;
 	border-bottom-left-radius: 7px;
@@ -135,8 +135,9 @@ figure {
 	
 	.logo{
 		width: 100%;
+        height: auto;
 		max-width: 740px;
-		margin-top: 200px;
+		margin: 30% 0 100px 0;
 	}
 	
 	.complementoLogo{
@@ -281,11 +282,4 @@ figure {
 }
 .onepage-pagination li a:before {
   color: #FFF;
-}
-
-.dataNaCapa {
-  color: #FFF;
-  margin-top: 355px;
-  font-size: 49px;
-  text-align: center;
 }
