@@ -84,7 +84,7 @@ h1 {
   text-align: center;
   background: #141e40;
   padding: 10px 25px;
-  width: 400px;
+  width: 425px;
   margin: 0 auto;
   border-bottom-right-radius: 7px;
   border-bottom-left-radius: 7px; }
@@ -104,26 +104,25 @@ h1 {
   margin-left: -130px; }
   /* line 123, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
   .botaoInscricao a:hover {
-    background: #fff215;
-    color: #1a2854; }
+    cursor: no-drop; }
 
-/* line 130, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
+/* line 131, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
 figure {
   max-width: 740px;
   margin: 0 auto;
   text-align: center;
   padding: 0; }
-  /* line 136, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
+  /* line 137, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
   figure .logo {
     width: 100%;
     height: auto;
     max-width: 740px;
     margin: 30% 0 100px 0; }
-  /* line 143, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
+  /* line 144, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
   figure .complementoLogo {
     width: 70%; }
 
-/* line 150, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
+/* line 151, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
 .conteudo {
   width: 1024px;
   max-width: 1024px;
@@ -131,20 +130,20 @@ figure {
   height: auto;
   display: table; }
 
-/* line 157, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
+/* line 158, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
 .conteudoFaq {
   padding: 0;
   text-align: left; }
-  /* line 161, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
+  /* line 162, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
   .conteudoFaq li {
     list-style: none;
     width: 50%; }
-    /* line 165, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
+    /* line 166, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
     .conteudoFaq li:nth-child(odd) {
       font-size: 18px;
       color: #fff215;
       font-weight: bold; }
-    /* line 170, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
+    /* line 171, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
     .conteudoFaq li:nth-child(even) {
       font-size: 14px;
       color: #fff;
@@ -152,39 +151,39 @@ figure {
       margin-bottom: 25px;
       font-weight: 300; }
 
-/* line 181, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
+/* line 182, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
 .conteudoProgramacao {
   padding: 0;
   right: 0; }
-  /* line 185, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
+  /* line 186, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
   .conteudoProgramacao li {
     list-style: none;
     width: 50%; }
-    /* line 188, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
+    /* line 189, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
     .conteudoProgramacao li:nth-child(even) {
       color: red;
       font-size: 18px;
       font-weight: 700; }
-    /* line 193, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
+    /* line 194, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
     .conteudoProgramacao li:nth-child(odd) {
       margin-bottom: 25px;
       font-weight: 700; }
-      /* line 196, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
+      /* line 197, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
       .conteudoProgramacao li:nth-child(odd) span {
         font-weight: 300;
         font-size: 14px;
         display: block;
         font-style: italic; }
-    /* line 203, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
+    /* line 204, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
     .conteudoProgramacao li:first-child {
       font-size: 26px;
       font-weight: 400; }
 
-/* line 210, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
+/* line 211, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
 .conteudoTimes {
   padding: 0;
   right: 0; }
-  /* line 214, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
+  /* line 215, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
   .conteudoTimes li {
     width: 47%;
     margin: 1%;
@@ -193,29 +192,29 @@ figure {
     list-style: none;
     background-color: #fff; }
 
-/* line 223, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
+/* line 224, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
 .conteudoOrganizacao {
   padding: 0;
   right: 0;
   display: table;
   width: 100%; }
-  /* line 229, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
+  /* line 230, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
   .conteudoOrganizacao li {
     display: inline-table;
     width: 32%;
     margin-bottom: 25px; }
-    /* line 234, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
+    /* line 235, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
     .conteudoOrganizacao li .thumb {
       float: left;
       width: 150px;
       height: 150px;
       border-radius: 50%;
       background: #fff; }
-      /* line 240, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
+      /* line 241, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
       .conteudoOrganizacao li .thumb img {
         width: 100%;
         border-radius: 50%; }
-    /* line 245, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
+    /* line 246, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
     .conteudoOrganizacao li .descricao {
       float: left;
       margin-top: 50px;
@@ -223,7 +222,7 @@ figure {
       color: red;
       font-size: 18px;
       font-weight: 700; }
-      /* line 253, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
+      /* line 254, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
       .conteudoOrganizacao li .descricao span {
         color: #000;
         font-weight: 300;
@@ -231,13 +230,13 @@ figure {
         display: block;
         font-style: italic; }
 
-/* line 263, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
+/* line 264, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
 .conteudoApoio {
   padding: 0;
   right: 0;
   display: table;
   width: 100%; }
-  /* line 269, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
+  /* line 270, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
   .conteudoApoio li {
     width: 47%;
     margin: 1%;
@@ -245,11 +244,11 @@ figure {
     display: inline-table;
     list-style: none;
     background-color: #fff; }
-    /* line 277, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
+    /* line 278, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
     .conteudoApoio li img {
       width: 80%; }
 
-/* line 283, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
+/* line 284, D:/ProjetosTFS/Hackathon/lib/stylesheet/sass/style.scss */
 .onepage-pagination li a:before {
   color: #FFF; }
 

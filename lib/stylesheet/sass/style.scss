@@ -101,7 +101,7 @@ h1 {
 	text-align: center;
 	background: #141e40;
 	padding: 10px 25px;
-	width: 400px;
+	width: 425px;
 	margin: 0 auto;
 	border-bottom-right-radius: 7px;
 	border-bottom-left-radius: 7px;
@@ -121,8 +121,9 @@ h1 {
 	margin-left: -130px;
 	
 	&:hover{
-		background: #fff215;
-		color:#1a2854;
+        cursor: no-drop;
+		//background: #fff215;
+		//color:#1a2854;
 	}
 }
 
