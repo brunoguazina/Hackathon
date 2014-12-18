@@ -8,6 +8,14 @@
   color: #1a2854;
 }
 
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   color: #000;
@@ -151,30 +159,30 @@ figure .complementoLogo {
   font-weight: 300;
 }
 
-.conteudoProgramacao {
+ul.conteudoProgramacao {
   padding: 0;
   right: 0;
+  width: 500px;
 }
-.conteudoProgramacao li {
+ul.conteudoProgramacao li {
   list-style: none;
-  width: 50%;
 }
-.conteudoProgramacao li:nth-child(even) {
+ul.conteudoProgramacao li:nth-child(even) {
   color: red;
   font-size: 18px;
   font-weight: 700;
 }
-.conteudoProgramacao li:nth-child(odd) {
+ul.conteudoProgramacao li:nth-child(odd) {
   margin-bottom: 25px;
   font-weight: 700;
 }
-.conteudoProgramacao li:nth-child(odd) span {
+ul.conteudoProgramacao li:nth-child(odd) span {
   font-weight: 300;
   font-size: 15px;
   display: block;
   font-style: italic;
 }
-.conteudoProgramacao li:first-child {
+ul.conteudoProgramacao li:first-child {
   font-size: 26px;
   font-weight: 400;
 }
